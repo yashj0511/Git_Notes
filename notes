@@ -1,0 +1,31 @@
+Git 3 stages(local directory,staged ,commit)
+
+Git status (check status modified file and all)
+
+
+1)git checkout -f (all files which are modified which are in staging directory get back to previous commit)
+
+2)git log (all derails of commit history)
+
+3)git diff (compare working tree or local tracked files with staging area files)
+
+4) git diff --staged (
+Will show the difference between modified or deleted file in staged area)
+
+
+5)git rm --cached filename (   removed   from staging area but not from local )
+
+6)git rm filename (remove from staging and local as well)
+
+
+7)files that you provide in gitignore will be ignored 
+
+8)git branch branchname (will create branch branchname)
+
+9)git branch (will show all branches)
+
+10) git checkout master(will switch to master branch)
+
+Now you are in master 
+11) git merge feature1 
+Now fracture 1 is merged in master
